@@ -1,0 +1,2 @@
+# ReactNativePage
+基于ReactNative，实现跟web页面一样可以在服务端发布单个页面客户端时时更新的框架
