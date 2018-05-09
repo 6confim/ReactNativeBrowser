@@ -39,14 +39,18 @@ module.exports = EventSubscriptionVendor;
 
 ````
 
-3. 下载执行
-  1. 使用native fetch 源代码 然后使用 bridge通过jscore调用该模块
-  2. 使用js加载 调用并且使用eval、new Function('') 执行代码
+3. 下载执行    
+
+    1. 使用native fetch 源代码 然后使用 bridge通过jscore调用该模块
+    
+    2. 使用js加载 调用并且使用eval、new Function('') 执行代码
   
   
-4. 使用，显示组件    
-  1. 打开一个空页面，通过moduleId（服务端返回），拿到对应的组件 require(189)使用render方法 render 该模块  
-  2. 实现动态router，当组件执行完成后，动态添加到 router中，就可以像正常页面一样使用该页面了 
+4. 使用，显示组件    
+
+   1. 打开一个空页面，通过moduleId（服务端返回），拿到对应的组件 require(189)使用render方法 render 该模块   
+   
+   2. 实现动态router，当组件执行完成后，动态添加到 router中，就可以像正常页面一样使用该页面了 
  
 
   
