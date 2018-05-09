@@ -37,7 +37,7 @@ var invariant = require(13                  ); // 13 = fbjs/lib/invarian
 module.exports = EventSubscriptionVendor;
 }, 61, null, "EventSubscriptionVendor");
 
-  ````
+````
 
 3. 下载执行
 
